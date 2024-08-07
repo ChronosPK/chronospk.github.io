@@ -37,6 +37,7 @@
           run: |
             git config --global user.name "ChronosPK"
             git config --global user.email "mradu021@gmail.com"
+            git remote set-url origin https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}
         
         - name: Deploy to GitHub Pages
           run: npx gh-pages -d public
