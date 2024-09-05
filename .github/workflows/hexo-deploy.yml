@@ -1,0 +1,45 @@
+name: Hexo Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install hexo-cli
+        run: npm install hexo-cli -g
+      
+      - name: Install hexo-theme-next
+        run: npm install hexo-theme-next
+      
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run npm audit fix
+        run: npm audit fix
+
+      - name: Build Hexo site
+        run: hexo generate
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "ChronosPK"
+          git config --global user.email "mradu021@gmail.com"
+          git remote set-url origin https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}
+        
+      - name: Deploy to GitHub Pages
+        run: npx gh-pages -d public
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
