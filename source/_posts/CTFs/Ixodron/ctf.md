@@ -1,6 +1,6 @@
 ---
 title: Ixodron CTF 2024 - Capture The Flag
-date: 2024-09-03 09:00:00
+date: 2024-09-03 08:00:00
 categories:
   - CTFs
   - Ixodron CTF 2024

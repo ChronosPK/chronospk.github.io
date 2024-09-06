@@ -25,7 +25,7 @@ Welcome to **Chronos Security CTF 2024**!
 
 The **CSCTF 2024** represents an exclusive national cybersecurity competition, welcoming participation from students and pupils of Romania's military and civilian educational system. After months of work, days of management, dozens of hours of debugging, and numerous unsuccessful attempts, I am thrilled to announce the completion of this project!
 
-I, [**sd. plt. maj. Marin Radu**](https://www.armyacademy.ro/ev_2023_10_27.php), a final-year student at the ["Nicolae Bălcescu" Land Forces Academy](https://www.armyacademy.ro/engleza/), organized and led this initiative, serving both as an exhilarating cybersecurity challenge and an exhaustive bachelor thesis project.
+At the time of writing I am [**sd. plt. maj. Marin Radu**](https://www.armyacademy.ro/ev_2023_10_27.php), a final-year student at the ["Nicolae Bălcescu" Land Forces Academy](https://www.armyacademy.ro/engleza/), and I organized and led this initiative, serving both as an exhilarating cybersecurity challenge and an exhaustive bachelor thesis project.
 
 
 <br>
