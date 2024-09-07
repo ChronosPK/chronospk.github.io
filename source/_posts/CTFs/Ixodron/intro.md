@@ -1,10 +1,10 @@
 ---
-title: Ixodron CTF 2024 - Introduction
+title: Ixodron 2024 - Introduction
 date: 2024-09-03 08:00:00
 categories:
   - CTFs
   - Ixodron 2024
-  - Introduction
+  - 1. Introduction
 tags:
   - CTFs
   - Ixodron 2024

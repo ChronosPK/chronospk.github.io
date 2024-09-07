@@ -4,7 +4,7 @@ date: 2024-09-03 11:00:00
 categories:
   - CTFs
   - Ixodron 2024
-  - CTF
+  - 3. CTF
 tags:
   - CTFs
   - Ixodron 2024
