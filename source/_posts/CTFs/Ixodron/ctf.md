@@ -1,15 +1,17 @@
 ---
-title: Ixodron CTF 2024 - Capture The Flag
-date: 2024-09-03 08:00:00
+title: Ixodron 2024 - CTF
+date: 2024-09-03 11:00:00
 categories:
   - CTFs
-  - Ixodron CTF 2024
+  - Ixodron 2024
   - CTF
 tags:
   - CTFs
-  - Ixodron CTF 2024
+  - Ixodron 2024
   - CTF
 toc: True
+---
+
 ---
 
 > **Ce este un CTF, de ce îl folosim, cum veți juca și ce veți învăța.**
@@ -57,7 +59,7 @@ Acest CTF <u>nu este conceput pentru a testa cunoștințele avansate de securita
 - **Locația**: [Locația Conferinței sau Link către Platforma de CTF]
 - **Link**: https://ixodron-ctf.chronossec.site
 - **Durată**: 09:30 - 16:00
-- **Număr de exerciții**: 20 `DE MODIFICAT`
+- **Număr de exerciții**: 20 
     - **Categorii**:
         - Criptografie: 2
         - Linux: 4
@@ -93,28 +95,17 @@ Pentru a participa, Ixodron v-a pregătit următoarele:
 
 <br>
 
-### Resurse de învățare
-
-Dacă vreți să continuați învățarea după conferință, recomandăm următoarele resurse:
-
-- **TryHackMe**: O platformă de antrenament pentru începători și avansați.
-- **Hack The Box**: Provocări avansate de securitate cibernetică.
-- **OverTheWire**: Provocări de securitate orientate pe Linux.
-- **CryptoPals**: Exerciții de criptografie.
-- **John Hammond YouTube Channel**: Tutoriale CTF și securitate cibernetică.
-
-<br>
-
 ### Asistență din partea Organizatorilor
 
 Organizatorii vor fi disponibili pentru asistență tehnică și întrebări pe toată durata competiției. 
 
 
 <br>
-
-Vă așteptăm cu nerăbdare să vă vedem la CTF și să vă arătăm ce înseamnă cu adevărat "Capture The Flag" în securitatea cibernetică!
-
 <br>
+
+<p style="text-align:center">
+  <b>Vă așteptăm la CTF!</b>
+</p>
 
 ---
 ---

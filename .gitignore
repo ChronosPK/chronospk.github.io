@@ -2,6 +2,8 @@
 Thumbs.db
 db.json
 *.log
-public/
+public/*
+!public/uploads
+!public/uploads/**
 .deploy*/
 _multiconfig.yml
