@@ -58,29 +58,132 @@ For more info, <a href="https://chronossec.site/about/#Socials" target="_"><b>cl
 
 ### Ziua 1
 
-| Perioadă | Activitate |
-| --- | --- |
-| 08.30 – 09.30 | Înregistrare și acomodarea participanților |
-| 09:30 – 10:00 | Prezentarea agendei pentru cele 2 zile |
-| 10:00 – 11:30 | Marin Radu - primul set de exerciții (adaptarea) |
-| 11:30 – 12:00 | Q&A |
-| 12:00 – 13:30 | Pauza de prânz |
-| 13:30 – 15:00 | Marin Radu - al doilea set de exerciții (îndreptare spre direcția CTF-ului) |
-| 15:00 – 15:30 | Q&A |
-| 15:30 – 16:00 | Pauză |
-| 16:00 – 17:00 | Marin Radu - demo pe infrastructura CTF-ului |
+<table>
+  <tr>
+    <th style="width:15%">Perioadă</th>
+    <th style="width:55%">Activitate</th>
+    <th style="width:30%">Responsabil</th>
+  </tr>
+  <tr>
+    <td>08:30 – 09:30</td>
+    <td>Înregistrare și acomodarea participanților</td>
+    <td>ixodron & ALEF</td>
+  </tr>
+  <tr>
+    <td>09:30 – 10:00</td>
+    <td>Prezentarea agendei pentru cele 2 zile</td>
+    <td>ixodron</td>
+  </tr>
+  <tr>
+    <td>10:00 – 11:30</td>
+    <td>
+      Primul set de exerciții (împreună cu participanții):
+      <ol>
+        <li>Introducerea în cybersecurity și virtualizare</li>
+        <li>Scanarea rețelei interne a mașinii virtuale</li>
+        <li>Conectarea la server FTP</li>
+        <li>Conectarea la server SMB</li>
+        <li>Conectarea la server SSH</li>
+      </ol>
+    </td>
+    <td>ixodron / Marin Radu</td>
+  </tr>
+  <tr>
+    <td>11:30 – 12:00</td>
+    <td>Q&A</td>
+    <td>Participanți & ixodron / Marin Radu</td>
+  </tr>
+  <tr>
+    <td>12:00 – 13:30</td>
+    <td>Pauza de prânz (comanda pizza)</td>
+    <td>ixodron & ALEF</td>
+  </tr>
+  <tr>
+    <td>13:30 – 15:00</td>
+    <td>
+      Continuarea setului de exerciții:
+      <ol>
+        <li>Testarea unui server Web</li>
+        <li>Spargerea parolei unei arhive protejate</li>
+        <li>Spargerea parolei unei rețele Wi-Fi</li>
+      </ol>
+    </td>
+    <td>ixodron / Marin Radu</td>
+  </tr>
+</table>
 
 ### Ziua 2
 
-| Perioadă | Activitate |
-| --- | --- |
-| 08:30 – 09:00 | Primirea participanțior și disuții informale |
-| 09:00 - 09:30 | Marin Radu - recapitularea competiției și pregatirile finale |
-| 09:30 – 12.30 | CTF - prima parte |
-| 12:30 – 13.30 | Pauza de prânz |
-| 14:00 – 16.00 | CTF - a doua parte |
-| 16:00 – 16.30 | Pauză |
-| 16:00 – 17.30 | Premiere + explicarea exercițiilor (rezolvare + modul de creare) |
+<table>
+  <tr>
+    <th style="width:15%">Perioadă</th>
+    <th style="width:55%">Activitate</th>
+    <th style="width:30%">Responsabil</th>
+  </tr>
+  <tr>
+    <td>08:30 – 09:00</td>
+    <td>Primirea participanților și discuții informale</td>
+    <td>ixodron & ALEF</td>
+  </tr>
+  <tr>
+    <td>09:00 – 09:30</td>
+    <td>
+      Recapitularea competiției și pregătirile finale:
+      <ul>
+        <li>Asigurarea conexiunii la internet a participanților</li>
+        <li>Asigurarea integrității</li>
+        <li>Conectare la CTF</li>
+        <li>Recapitularea regulilor și instrucțiunilor</li>
+      </ul>
+    </td>
+    <td>ixodron / Marin Radu</td>
+  </tr>
+  <tr>
+    <td>09:30 – 12:30</td>
+    <td>
+      CTF - prima parte:
+      <ul>
+        <li>Începerea competiției</li>
+        <li>Vom pune mare parte din exerciții</li>
+        <li>Monitorizăm participanții și experiența acestora</li>
+      </ul>
+    </td>
+    <td>ixodron / Marin Radu</td>
+  </tr>
+  <tr>
+    <td>12:30 – 13:30</td>
+    <td>Pauza de prânz (comanda pizza)</td>
+    <td>ixodron & ALEF</td>
+  </tr>
+  <tr>
+    <td>14:00 – 16:00</td>
+    <td>
+      CTF - a doua parte:
+      <ul>
+        <li>Adăugarea restului exercițiilor</li>
+        <li>Adăugare de hint-uri dacă este necesar</li>
+      </ul>
+    </td>
+    <td>ixodron / Marin Radu</td>
+  </tr>
+  <tr>
+    <td>16:00 – 16:30</td>
+    <td>Pauză (cafea)</td>
+    <td>ixodron & ALEF</td>
+  </tr>
+  <tr>
+    <td>16:00 – 17:00</td>
+    <td>
+      Explicarea exercițiilor (rezolvare + modul de creare) <br> Pregătirea echipelor câștigătoare
+    </td>
+    <td>ixodron / Marin Radu</td>
+  </tr>
+  <tr>
+    <td>17:00 – 17:30</td>
+    <td>Premierea primelor 3 echipe</td>
+    <td>ixodron & ALEF</td>
+  </tr>
+</table>
 
 <br>
 
