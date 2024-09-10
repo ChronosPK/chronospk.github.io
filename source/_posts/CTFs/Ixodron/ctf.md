@@ -1,13 +1,13 @@
 ---
-title: Ixodron 2024 - CTF
-date: 2024-09-03 11:00:00
+title: ixodron 2024 - CTF
+date: 2024-09-03 08:00:00
 categories:
   - CTFs
-  - Ixodron 2024
+  - ixodron 2024
   - 3. CTF
 tags:
   - CTFs
-  - Ixodron 2024
+  - ixodron 2024
   - CTF
 toc: True
 ---
@@ -24,20 +24,20 @@ toc: True
 
 ## Ce este un CTF?
 
-**CTF (Capture The Flag)** este o competiție de securitate cibernetică, care testează abilități din diverse domenii ale informaticii și securității cibernetice. Participanții își utilizează cunoștințele tehnice pentru a rezolva o serie de provocări, având ca scop final "capturarea" unor flag-uri (indicatoare virtuale).
+CTF (Capture The Flag) este o competiție de securitate cibernetică, care testează abilități din diverse domenii ale informaticii și protecției datelor. Participanții își utilizează cunoștințele tehnice pentru a rezolva o serie de provocări, având ca scop final “capturarea” unor flag-uri (indicatoare virtuale).
 
-<br>
 
-- **Format**: CTF-urile sunt competiții asemănătoare unui `joc de tip puzzle`, unde participanții trebuie să rezolve provocări specifice pentru a obține puncte și a avansa.
+- **Format**: CTF-urile sunt competiții asemănătoare unui joc de tip puzzle, unde participanții trebuie să rezolve provocări specifice pentru a obține puncte și a avansa.
 - **Categorii**: Provocările acoperă domenii diverse, cum ar fi `criptografia`, `exploatarea web`, `networking`, `steganografia`, `ingineria inversă`, `programarea`, `OSINT`, `Linux`, `Windows`, `exploatarea binară`, și altele.
 - **Durată**: Competițiile variază ca durată, de la câteva ore la câteva zile.
-- **Punctaj**: Exercițiile sunt de obicei `punctate dinamic`, ceea ce înseamnă că punctajul pentru fiecare exercițiu poate varia în funcție de dificultate și de numărul de echipe care îl rezolvă.
+- **Punctaj**: Exercițiile sunt de obicei punctate dinamic, ceea ce înseamnă că punctajul pentru fiecare exercițiu poate varia în funcție de dificultate și de numărul de echipe care îl rezolvă.
+
 
 <br>
 
-## Descrierea CTF-ului Ixodron 2024
+## Descrierea CTF-ului ixodron 2024 ixo - CTF
 
-CTF-ul va avea loc în a doua zi a conferinței Ixodron 2024 și este deschis tuturor participanților, indiferent de nivelul de cunoștințe în securitate cibernetică. Scopul principal este de a **stimula curiozitatea** și de a încuraja învățarea prin **experimentare și perseverență**.
+CTF-ul va avea loc în a doua zi a evenimentului ixo – CTF și este deschis tuturor participanților, indiferent de nivelul de cunoștințe în securitate cibernetică. Scopul principal este de **stimularea curiozității** și încurajarea învățării prin **experimentare și perseverență**.
 
 <br>
 
@@ -46,45 +46,41 @@ CTF-ul va avea loc în a doua zi a conferinței Ixodron 2024 și este deschis tu
 Acest CTF <u>nu este conceput pentru a testa cunoștințele avansate de securitate cibernetică</u>. În schimb, se concentrează pe testarea abilităților de networking și pe utilizarea informațiilor prezentate în demo-urile pregătite și demonstrate anterior. De asemenea, veți întâlni provocări simple de securitate cibernetică, pentru care răspunsurile pot fi găsite pe internet.
 
 **Este esențial să subliniem curiozitatea și persistența:**
-
 - Nu este necesar să cunoașteți toate răspunsurile dinainte.
-- Este normal să învățați mai multe lucruri în timpul competiției decât știați înainte și aceasta este partea captivantă!
+- Este normal să învățați mai multe lucruri pe parcursul competiției decât știați înainte, iar aceasta este partea captivantă!
 - Curiozitatea de a explora, persistența de a nu renunța la prima dificultate și dorința de a învăța vor fi cheile succesului vostru.
+
 
 <br>
 
 ### Detalii despre eveniment
 
-- **Data**: A doua zi a conferinței, 04.10.2024
-- **Locația**: [Locația Conferinței sau Link către Platforma de CTF]
+- **Data**: A doua zi a conferinței, 03.10.2024
+- **Locația**: [Sediul ALEF, Bulevardul Dimitrie Pompeiu, nr. 6E, clădirea Pipera Business Tower, et. 8](https://maps.app.goo.gl/UT8fBvJhVJKecEhH6)
 - **Link**: https://ixodron-ctf.chronossec.site
 - **Durată**: 09:30 - 16:00
-- **Număr de exerciții**: 20 
+- **Număr de exerciții**: 32
     - **Categorii**:
-        - Criptografie: 2
+        - Criptografie: 4
+        - Forensics: 4
         - Linux: 4
-        - Exploatare Web: 4
-        - Networking: 3
-        - Steganografie: 1
-        - OSINT: 2
-- **Informații suplimentare**
-    - Veți avea o pauză de prânz de la 12:30 la 13:30 - PIZZA!
-    - De la 16:00 la 17:00 vom discuta rezolvarea exercițiilor
+        - Web: 6
+        - Networking: 4
+        - Windows: 2
 
 <br>
 
 ### Cum să Participați
 
-Participanții vor forma echipe de câte 3 membri. 
-
-- **Autentificare**: .
-- **Formatul flagurilor**: `IXODRON{mesaj}`, în care `IXODRON{}` este formaul care arată că ați ajuns la răspunsul corect.
+- **Echipe**: formate din câte 3 participanți 
+- **Autentificare**: https://ixodron-ctf.chronossec.site/register
+- **Flag-uri**: Flag-urile (indicatoarele) vor fi în formatul `IXODRON{mesaj}`; căutați să găsiți un răspuns ce conține `IXODRON` 
 
 <br>
 
 ### Prerechizite
 
-Pentru a participa, Ixodron v-a pregătit următoarele:
+Pentru a participa, ixodron v-a pregătit următoarele:
 
 - **Computer cu Sistem de Operare Windows**.
 - **Aplicație de virtualizare**: Oracle VM VirtualBox.
@@ -97,7 +93,7 @@ Pentru a participa, Ixodron v-a pregătit următoarele:
 
 ### Asistență din partea Organizatorilor
 
-Organizatorii vor fi disponibili pentru asistență tehnică și întrebări pe toată durata competiției. 
+Organizatorii vor fi disponibili pentru asistență tehnică și întrebări pe toată durata exercițiului CTF. 
 
 
 <br>

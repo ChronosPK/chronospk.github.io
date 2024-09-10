@@ -1,23 +1,25 @@
 ---
-title: Ixodron 2024 - Introduction
-date: 2024-09-03 08:00:00
+title: ixodron 2024 - Introduction
+date: 2024-09-03 11:00:00
 categories:
   - CTFs
-  - Ixodron 2024
+  - ixodron 2024
   - 1. Introduction
 tags:
   - CTFs
-  - Ixodron 2024
+  - ixodron 2024
 toc: true
 ---
 
 ---
 Pe această pagină, veți găsi informațiile inițiale de care aveți nevoie în timpul conferinței, inclusiv:
 
-- [Informații despre organizatori](#Despre-Ixodron)
-- [Informații despre partener](#Despre-partener)
-- [Programul conferinței](#Programul-conferinței)
-- [Activitățile planificate](#Activitatile-planificate)
+- [Informații despre organizatori](#organizatorii)
+  - [Despre ixodron](#despre-ixodron)
+  - [Despre Alef](#despre-alef)
+  - [Despre trainer](#despre-trainer)
+- [Agenda evenimentului](#agenda-evenimentului)
+- [Activitățile planificate](#activitățile-planificate)
 
 ---
 <!-- more -->
@@ -26,37 +28,44 @@ Pe această pagină, veți găsi informațiile inițiale de care aveți nevoie �
 
 ## 👾 Introducere
 
-Aceasta este pagina de introducere dedicată vouă, participanților la competiția de tip Capture The Flag (**CTF**) și activitățile asociate, organizate în parteneriat cu <a href="https://ixodron.ro" target="_">Ixodron</a>. Evenimentul nostru este conceput pentru a vă oferi oportunități de învățare și dezvoltare în domeniul securității cibernetice, într-un cadru competitiv și stimulant.
+#### Bun venit la evenimentul ixo-CTF organizat de ixodron împreună cu ALEF!
 
-<br>
-
-## Despre Ixodron
-
-<a href="https://ixodron.ro" target="_">**Ixodron**</a> este o companie românească de top care oferă soluții tehnologice avansate și personalizate, axându-se pe securitatea cibernetică și infrastructura IT. Compania colaborează cu diverse organizații, inclusiv agenții guvernamentale și firme din sectorul sănătății, pentru a le oferi soluții inovatoare care să răspundă provocărilor specifice.
-
-**Colaborări și Proiecte Notabile**:
-
-> **Sectorul Sănătății**: Ixodron a colaborat cu Nutanix pentru a implementa soluții de infrastructură hiperconvergentă în peste 1.500 de spitale la nivel global. Aceste soluții sunt folosite pentru aplicații critice, cum ar fi sisteme de arhivare și comunicare a imaginilor medicale (PACS) și dosare electronice ale pacienților (EHR), inclusiv software de la companii precum Epic Systems și GE Healthcare ​(<a href="https://ixodron.ro/pacs-on-nutanix-our-journey-continues/" target="_">**Ixodron**</a>).
-
-> **Sectorul Apărării**: Ixodron lucrează îndeaproape cu agenții guvernamentale, inclusiv cele din sectorul apărării, pentru a implementa tehnologii inovatoare și pentru a anticipa nevoile viitoare. Compania oferă soluții de detectare, investigare și eliminare a amenințărilor cibernetice, colaborând cu companii din Catalogul de Produse pentru Asigurarea Informațiilor NATO (NIAPC). De asemenea, Ixodron a fost recunoscută de Ministerul Apărării din România, având codul NCAGE necesar pentru aplicarea corectă a standardelor NATO în identificarea articolelor​ (<a href="https://ixodron.ro/defense-consultancy/" target="_">**Ixodron**</a>).
-
-Aceste detalii evidențiază angajamentul Ixodron în a oferi soluții de top și parteneriate strategice cu organizații cheie din diverse sectoare, făcând din ei un partener de încredere pentru orice organizație care dorește să își optimizeze infrastructura IT și să își protejeze datele în mod eficient.
-
-<br>
-
-## Despre partener
-
-Numele meu este **MARIN Radu**, sunt ofițer în Ministerul Apărării Naționale și lucrez în cadrul Comandamentului Apărării Cibernetice din București.
-În scurta mea experiență în domeniul securității cibernetice am participat la numeroase competiții naționale și internaționale, am fost invitat la conferințe și exerciții militare de specific și am organizat 2 competiții, una locală, în Sibiu (\~100 participanți), și una națională (\~250 participanți).
-
-For more info, <a href="https://chronossec.site/about/#Socials" target="_"><b>click here</b></a>.
+Această pagină de introducere este dedicată participanților la evenimentul ixo – CTF, cuprinzând training anti-hacking și exerciții de tip Capture The Flag. Evenimentul este conceput pentru a vă oferi oportunități de învățare și dezvoltare în domeniul securității cibernetice, într-un cadru competitiv și stimulant. 
+Suntem încântați să vă avem alături și sperăm să vă bucurați de această experiență.
 
 
 <br>
 
-## Programul conferinței
+## Organizatorii
 
-### Ziua 1
+### Despre ixodron
+
+<a href="https://ixodron.ro" target="_">**Ixodron**</a> este o companie IT cu trei direcții principale de acțiune:
+- Design, implementare și suport tehnic pentru soluții aferente centrelor de date, rețelelor și securității cibernetice (inclusiv Microsoft 365 și Azure Cloud)
+- Dezvoltare software/aplicații, automatizare de procese/RPA și raportare automată/BI
+- Soluții de inteligență artificială pentru domeniul medical
+
+În contextul actual, ixodron pune un accent deosebit pe auditul și consultanța de securitate, asigurându-se că organizațiile sunt pregătite să facă față provocărilor cibernetice moderne.
+
+<br>
+
+### Despre ALEF
+
+<a href="https://www.alef.com/ro/" target="_">**ALEF Distribution RO**</a> este un distribuitor de soluții, servicii și traininguri IT, adresate atât pieței de business, cât și consumatorilor individuali. Cu o echipă locală de experți și peste 20 de ani de experiență în domeniul tehnologiei informației, ALEF Distribution RO asigură livrarea de servicii și soluții complete, atât cloud, cât și on-premise, care respectă cele mai riguroase standarde de calitate și răspund nevoilor clienților.
+
+<br>
+
+### Despre trainer
+
+Trainer și moderator al evenimentului: <a href="https://www.linkedin.com/in/radumarin001/" target="_blank">**Marin Radu**</a>.
+Marin Radu operează în domeniul securității cibernetice, participând la competiții naționale și internaționale, conferințe și exerciții cyber. De asemenea, are experiență în organizarea competițiilor la nivel local și național.
+
+
+<br>
+
+## Agenda evenimentului
+
+### Ziua 1: 02.10.2024
 
 <table>
   <tr>
@@ -65,17 +74,17 @@ For more info, <a href="https://chronossec.site/about/#Socials" target="_"><b>cl
     <th style="width:30%">Responsabil</th>
   </tr>
   <tr>
-    <td>08:30 – 09:30</td>
-    <td>Înregistrare și acomodarea participanților</td>
+    <td>08:30 – 09:00</td>
+    <td>Înregistrare și cafea</td>
     <td>ixodron & ALEF</td>
   </tr>
   <tr>
-    <td>09:30 – 10:00</td>
+    <td>09:00 – 09:30</td>
     <td>Prezentarea agendei pentru cele 2 zile</td>
     <td>ixodron</td>
   </tr>
   <tr>
-    <td>10:00 – 11:30</td>
+    <td>09:30 – 11:00</td>
     <td>
       Primul set de exerciții (împreună cu participanții):
       <ol>
@@ -86,33 +95,57 @@ For more info, <a href="https://chronossec.site/about/#Socials" target="_"><b>cl
         <li>Conectarea la server SSH</li>
       </ol>
     </td>
-    <td>ixodron / Marin Radu</td>
+    <td>Marin Radu</td>
   </tr>
   <tr>
-    <td>11:30 – 12:00</td>
+    <td>11:00 - 11:30</td>
     <td>Q&A</td>
     <td>Participanți & ixodron / Marin Radu</td>
   </tr>
   <tr>
-    <td>12:00 – 13:30</td>
-    <td>Pauza de prânz (comanda pizza)</td>
+    <td>11:30 – 13:00</td>
+    <td>Pauză de prânz</td>
     <td>ixodron & ALEF</td>
   </tr>
   <tr>
-    <td>13:30 – 15:00</td>
+    <td>13:00 – 15:30</td>
     <td>
-      Continuarea setului de exerciții:
+      Al doilea set de exerciții (împreună cu participanții):
       <ol>
         <li>Testarea unui server Web</li>
-        <li>Spargerea parolei unei arhive protejate</li>
+        <li>Spargerea parolei unei arhive protejate cu parolă</li>
         <li>Spargerea parolei unei rețele Wi-Fi</li>
       </ol>
     </td>
-    <td>ixodron / Marin Radu</td>
+    <td>Marin Radu</td>
+  </tr>
+  <tr>
+    <td>15:30 – 16:00</td>
+    <td>Q&A</td>
+    <td>Marin Radu</td>
+  </tr>
+  <tr>
+    <td>16:00 – 16:30</td>
+    <td>Pauză</td>
+    <td>ixodron & ALEF</td>
+  </tr>
+  <tr>
+    <td>16:30 – 17:30</td>
+    <td>
+      Prezentarea infrastructurii CTF:
+      <ul>
+        <li>Conectare și înregistrare pe platformă</li>
+        <li>Modul de rezolvare a exercițiilor</li>
+        <li>Informații utile despre platformă</li>
+        <li>Modul de punctare al exercițiilor</li>
+        <li>Resurse de învățare</li>
+      </ul>
+    </td>
+    <td>Marin Radu</td>
   </tr>
 </table>
 
-### Ziua 2
+### Ziua 2: 03.10.2024
 
 <table>
   <tr>
@@ -122,13 +155,13 @@ For more info, <a href="https://chronossec.site/about/#Socials" target="_"><b>cl
   </tr>
   <tr>
     <td>08:30 – 09:00</td>
-    <td>Primirea participanților și discuții informale</td>
+    <td>Primirea participanților și cafea</td>
     <td>ixodron & ALEF</td>
   </tr>
   <tr>
     <td>09:00 – 09:30</td>
     <td>
-      Recapitularea competiției și pregătirile finale:
+      Recapitularea competiției și pregătirile finale pentru CTF:
       <ul>
         <li>Asigurarea conexiunii la internet a participanților</li>
         <li>Asigurarea integrității</li>
@@ -136,7 +169,7 @@ For more info, <a href="https://chronossec.site/about/#Socials" target="_"><b>cl
         <li>Recapitularea regulilor și instrucțiunilor</li>
       </ul>
     </td>
-    <td>ixodron / Marin Radu</td>
+    <td>Marin Radu</td>
   </tr>
   <tr>
     <td>09:30 – 12:30</td>
@@ -144,15 +177,15 @@ For more info, <a href="https://chronossec.site/about/#Socials" target="_"><b>cl
       CTF - prima parte:
       <ul>
         <li>Începerea competiției</li>
-        <li>Vom pune mare parte din exerciții</li>
+        <li>Postăm majoritatea exercițiilor</li>
         <li>Monitorizăm participanții și experiența acestora</li>
       </ul>
     </td>
-    <td>ixodron / Marin Radu</td>
+    <td>ixodron / ALEF & Marin Radu</td>
   </tr>
   <tr>
     <td>12:30 – 13:30</td>
-    <td>Pauza de prânz (comanda pizza)</td>
+    <td>Pauză de prânz</td>
     <td>ixodron & ALEF</td>
   </tr>
   <tr>
@@ -160,15 +193,15 @@ For more info, <a href="https://chronossec.site/about/#Socials" target="_"><b>cl
     <td>
       CTF - a doua parte:
       <ul>
-        <li>Adăugarea restului exercițiilor</li>
-        <li>Adăugare de hint-uri dacă este necesar</li>
+        <li>Adăugarea exercițiilor rămase</li>
+        <li>Adăugarea indiciilor necesare</li>
       </ul>
     </td>
-    <td>ixodron / Marin Radu</td>
+    <td>ixodron / ALEF & Marin Radu</td>
   </tr>
   <tr>
     <td>16:00 – 16:30</td>
-    <td>Pauză (cafea)</td>
+    <td>Pauză</td>
     <td>ixodron & ALEF</td>
   </tr>
   <tr>
@@ -176,7 +209,7 @@ For more info, <a href="https://chronossec.site/about/#Socials" target="_"><b>cl
     <td>
       Explicarea exercițiilor (rezolvare + modul de creare) <br> Pregătirea echipelor câștigătoare
     </td>
-    <td>ixodron / Marin Radu</td>
+    <td>ixodron / ALEF & Marin Radu</td>
   </tr>
   <tr>
     <td>17:00 – 17:30</td>
@@ -191,30 +224,31 @@ For more info, <a href="https://chronossec.site/about/#Socials" target="_"><b>cl
 
 **Demo-uri și taskuri introductive:**
 
-- `(1)` <a href="https://chronossec.site/CTFs/Ixodron/Demo/1/#1-Scanarea-retelei" target="_blank">**scanarea unei rețele**</a>
-- `(1)` <a href="https://chronossec.site/CTFs/Ixodron/Demo/1/#2-Server-FTP" target="_blank">**conectarea la un server FTP**</a>
-- `(1)` <a href="https://chronossec.site/CTFs/Ixodron/Demo/1/#3-Server-SMB" target="_blank">**conectarea la un server SMB**</a>
-- `(1)` <a href="https://chronossec.site/CTFs/Ixodron/Demo/1/#4-Server-SSH" target="_blank">**conectarea la un server SSH**</a>
-- `(2)` <a href="https://chronossec.site/CTFs/Ixodron/Demo/2/#1-Server-web" target="_blank">**testarea unui server web**</a>
-- `(2)` <a href="https://chronossec.site/CTFs/Ixodron/Demo/2/#2-Parole-personalizate" target="_blank">**crearea unor liste de parole personalizate**</a>
-- `(2)` <a href="https://chronossec.site/CTFs/Ixodron/Demo/2/#3-Arhiva-ZIP" target="_blank">**spargerea parolei unei arhive protejate**</a>
-- `(2)` <a href="https://chronossec.site/CTFs/Ixodron/Demo/2/#4-Wi-Fi" target="_blank">**spargerea parolei unei rețele Wi-Fi**</a>
+- `(1)` <a href="https://chronossec.site/CTFs/ixodron/Demo/1/#1-Scanarea-retelei" target="_blank">**scanarea unei rețele**</a>
+- `(1)` <a href="https://chronossec.site/CTFs/ixodron/Demo/1/#2-Server-FTP" target="_blank">**conectarea la un server FTP**</a>
+- `(1)` <a href="https://chronossec.site/CTFs/ixodron/Demo/1/#3-Server-SMB" target="_blank">**conectarea la un server SMB**</a>
+- `(1)` <a href="https://chronossec.site/CTFs/ixodron/Demo/1/#4-Server-SSH" target="_blank">**conectarea la un server SSH**</a>
+- `(2)` <a href="https://chronossec.site/CTFs/ixodron/Demo/2/#1-Server-web" target="_blank">**testarea unui server web**</a>
+- `(2)` <a href="https://chronossec.site/CTFs/ixodron/Demo/2/#2-Parole-personalizate" target="_blank">**crearea unor liste personalizate de parole**</a>
+- `(2)` <a href="https://chronossec.site/CTFs/ixodron/Demo/2/#3-Arhiva-ZIP" target="_blank">**spargerea parolei unei arhive protejate**</a>
+- `(2)` <a href="https://chronossec.site/CTFs/ixodron/Demo/2/#4-Wi-Fi" target="_blank">**spargerea parolei unei rețele Wi-Fi**</a>
 
 
 <br>
 
 ## Extra
-**Resurse de învățare (tip CTF):**
+**Resurse de învățare:**
 - <a href="https://play.picoctf.org/practice" target="_blank">**`PicoCTF`**</a>
 - <a href="https://tryhackme.com/hacktivities?tab=search" target="_blank">**`TryHackMe`**</a>
 - <a href="https://247ctf.com/dashboard" target="_blank">**`247CTF`**</a>
 - <a href="https://ctflearn.com/challenge/1/browse" target="_blank">**`CTFLearn`**</a>
+- <a href="https://chronos-security.notion.site/Learning-resources-652c504eb73b46daa5fa5a79be840624?pvs=4" target="_blank">**`Chronos Secrurity`**</a>
 
 <br>
 <br>
 
 <p style="text-align:center">
-  <b>NEXT</b>: <a href="/CTFs/Ixodron/Demo/1/" target="_blank">Demo 1</a>
+  <b>NEXT</b>: <a href="/CTFs/ixodron/Demo/1/" target="_blank">Demo 1</a>
 </p>
 
 ---
