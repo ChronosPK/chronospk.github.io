@@ -16,7 +16,7 @@ Pe această pagină, veți găsi informațiile inițiale de care aveți nevoie �
 
 - [Informații despre organizatori](#organizatorii)
   - [Despre ixodron](#despre-ixodron)
-  - [Despre Alef](#despre-alef)
+  - [Despre ALEF](#despre-alef)
   - [Despre trainer](#despre-trainer)
 - [Agenda evenimentului](#agenda-evenimentului)
 - [Activitățile planificate](#activitățile-planificate)
