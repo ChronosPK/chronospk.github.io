@@ -12,6 +12,7 @@ toc: true
 ---
 
 ---
+
 Pe această pagină, veți găsi informațiile inițiale de care aveți nevoie în timpul conferinței, inclusiv:
 
 - [Informații despre organizatori](#Organizatorii)
