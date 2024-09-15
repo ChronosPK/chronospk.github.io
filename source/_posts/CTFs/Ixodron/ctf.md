@@ -70,7 +70,7 @@ Acest CTF <u>nu este conceput pentru a testa cunoștințele avansate de securita
 
 <br>
 
-### Cum să Participați
+### Cum să participați
 
 - **Echipe**: formate din câte 3 participanți 
 - **Autentificare**: https://ixodron-ctf.chronossec.site/register
@@ -91,7 +91,7 @@ Pentru a participa, ixodron v-a pregătit următoarele:
 
 <br>
 
-### Asistență din partea Organizatorilor
+### Asistență din partea organizatorilor
 
 Organizatorii vor fi disponibili pentru asistență tehnică și întrebări pe toată durata exercițiului CTF. 
 

@@ -14,12 +14,12 @@ toc: true
 ---
 Pe această pagină, veți găsi informațiile inițiale de care aveți nevoie în timpul conferinței, inclusiv:
 
-- [Informații despre organizatori](#organizatorii)
-  - [Despre ixodron](#despre-ixodron)
-  - [Despre ALEF](#despre-alef)
-  - [Despre trainer](#despre-trainer)
-- [Agenda evenimentului](#agenda-evenimentului)
-- [Activitățile planificate](#activitățile-planificate)
+- [Informații despre organizatori](#Organizatorii)
+  - [Despre ixodron](#Despre-ixodron)
+  - [Despre ALEF](#Despre-ALEF)
+  - [Despre trainer](#Despre-trainer)
+- [Agenda evenimentului](#Agenda-evenimentului)
+- [Activitățile planificate](#Activitățile-planificate)
 
 ---
 <!-- more -->
