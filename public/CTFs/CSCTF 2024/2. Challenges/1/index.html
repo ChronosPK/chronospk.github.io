@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/uploads/logo/windows-linux.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/uploads/logo/windows-linux.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/uploads/logo/windows-linux.png">
+  <link rel="mask-icon" href="/uploads/logo/windows-linux.png" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha256-XOqroi11tY4EFQMR9ZYwZWKj5ZXiftSx36RRuC3anlA=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/blue/pace-theme-minimal.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"chronossec.site","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.20.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"always","padding":18,"offset":12},"copycode":{"enable":true,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="Challenges - methodology, insights, reasoning, templates">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2.1. CSCTF 2024 - Challenges">
+<meta property="og:url" content="https://chronossec.site/CTFs/CSCTF%202024/2.%20Challenges/1/index.html">
+<meta property="og:site_name" content="Chronos Security">
+<meta property="og:description" content="Challenges - methodology, insights, reasoning, templates">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2024-09-23T06:18:55.837Z">
+<meta property="article:modified_time" content="2024-09-23T06:18:55.837Z">
+<meta property="article:author" content="ChronosPK | Marin Radu">
+<meta property="article:tag" content="CTFs">
+<meta property="article:tag" content="CSCTF 2024">
+<meta property="article:tag" content="How to organize a CTF competition">
+<meta property="article:tag" content="Challenges">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://chronossec.site/CTFs/CSCTF%202024/2.%20Challenges/1/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://chronossec.site/CTFs/CSCTF%202024/2.%20Challenges/1/","path":"CTFs/CSCTF 2024/2. Challenges/1/","title":"2.1. CSCTF 2024 - Challenges"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>2.1. CSCTF 2024 - Challenges | Chronos Security</title>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GMH7MEYY9C"></script>
+  <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"G-GMH7MEYY9C","only_pageview":false,"measure_protocol_api_secret":null}</script>
+  <script src="/js/third-party/analytics/google-analytics.js"></script>
+
+
+
+  <script data-pjax defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{&quot;token&quot;: &quot;99fd3273ef2c49c9af35e952ce7e7f18&quot;}'></script>
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Chronos Security</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">Sharing knowledge</p>
+      <img class="custom-logo-image" src="/uploads/logo/windows-linux.png" alt="Chronos Security">
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="Search" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">16</span></a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">38</span></a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Overview"><span class="nav-text">Overview</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Introduction-to-CTF-Challenges"><span class="nav-text">Introduction to CTF Challenges</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Significance-to-Participants"><span class="nav-text">Significance to Participants</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Categories-and-Quantity"><span class="nav-text">Categories and Quantity</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Cloud-Infrastructure-and-Kubernetes"><span class="nav-text">Cloud Infrastructure and Kubernetes</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Cloud-Powered-Replicas"><span class="nav-text">Cloud-Powered Replicas</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#File-System-Evolution"><span class="nav-text">File System Evolution</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Key-Aspects-of-Challenges"><span class="nav-text">Key Aspects of Challenges</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Challenge-Complexity"><span class="nav-text">Challenge Complexity</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Engagement-and-Interaction"><span class="nav-text">Engagement and Interaction</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Real-World-Relevance"><span class="nav-text">Real-World Relevance</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Evolution-and-Adaptation"><span class="nav-text">Evolution and Adaptation</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Continuous-Improvements"><span class="nav-text">Continuous Improvements</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Structural-Adaptations"><span class="nav-text">Structural Adaptations</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Conclusion"><span class="nav-text">Conclusion</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Participant-Feedback-and-Reception"><span class="nav-text">Participant Feedback and Reception</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Future-Developments"><span class="nav-text">Future Developments</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="ChronosPK | Marin Radu"
+      src="/uploads/logo/windows-linux.png">
+  <p class="site-author-name" itemprop="name">ChronosPK | Marin Radu</p>
+  <div class="site-description" itemprop="description">CTFs, writeups, cheatsheets, and explanations in cybersecurity</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">39</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">16</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">38</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/ChronosPK" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;ChronosPK" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:chronos@chronossec.site" title="E-Mail → mailto:chronos@chronossec.site" rel="noopener me"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://linkedin.com/in/radumarin001/" title="LinkedIn → https:&#x2F;&#x2F;linkedin.com&#x2F;in&#x2F;radumarin001&#x2F;" rel="noopener me" target="_blank"><i class="fab fa-linkedin fa-fw"></i>LinkedIn</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://instagram.com/chronos_security" title="Instagram → https:&#x2F;&#x2F;instagram.com&#x2F;chronos_security" rel="noopener me" target="_blank"><i class="fab fa-instagram fa-fw"></i>Instagram</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.paypal.com/donate/?hosted_button_id=UXZC74DREB9W8" title="PayPal → https:&#x2F;&#x2F;www.paypal.com&#x2F;donate&#x2F;?hosted_button_id&#x3D;UXZC74DREB9W8" rel="noopener me" target="_blank"><i class="fab fa-paypal fa-fw"></i>PayPal</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://buymeacoffee.com/chronossec" title="buymeacoffee → https:&#x2F;&#x2F;buymeacoffee.com&#x2F;chronossec" rel="noopener me" target="_blank"><i class="fa fa-coffee fa-fw"></i>buymeacoffee</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://github.com/sponsors/ChronosPK" title="GitHub Sponsor → https:&#x2F;&#x2F;github.com&#x2F;sponsors&#x2F;ChronosPK" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub Sponsor</a>
+      </span>
+  </div>
+  <div class="cc-license animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="sidebar-inner sidebar-blogroll">
+      <div class="links-of-blogroll animated">
+        <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+          Links
+        </div>
+        <ul class="links-of-blogroll-list">
+            <li class="links-of-blogroll-item">
+              <a href="/categories/CTFs/CSCTF-2024/" title="&#x2F;categories&#x2F;CTFs&#x2F;CSCTF-2024&#x2F;">CSTFs - CSCTF 2024</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="/categories/Pentesting/Linux/" title="&#x2F;categories&#x2F;Pentesting&#x2F;Linux&#x2F;">Pentesting - Linux</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="/categories/Pentesting/Windows/" title="&#x2F;categories&#x2F;Pentesting&#x2F;Windows&#x2F;">Pentesting - Windows</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="/" title=""></a>
+            </li>
+        </ul>
+      </div>
+    </div>
+        <div class="pjax">
+        </div>
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://chronossec.site/CTFs/CSCTF%202024/2.%20Challenges/1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/uploads/logo/windows-linux.png">
+      <meta itemprop="name" content="ChronosPK | Marin Radu">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Chronos Security">
+      <meta itemprop="description" content="CTFs, writeups, cheatsheets, and explanations in cybersecurity">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="2.1. CSCTF 2024 - Challenges | Chronos Security">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          2.1. CSCTF 2024 - Challenges
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 23-09-2024 09:18:55" itemprop="dateModified" datetime="2024-09-23T09:18:55+03:00">23-09-2024</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/CTFs/" itemprop="url" rel="index"><span itemprop="name">CTFs</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/CTFs/CSCTF-2024/" itemprop="url" rel="index"><span itemprop="name">CSCTF 2024</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/CTFs/CSCTF-2024/2-Challenges/" itemprop="url" rel="index"><span itemprop="name">2. Challenges</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><hr>
+<blockquote>
+<p>Challenges - methodology, insights, reasoning, templates</p>
+</blockquote>
+<hr>
+<span id="more"></span>
+
+<br>
+
+<h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><br>
+
+<h2 id="Introduction-to-CTF-Challenges"><a href="#Introduction-to-CTF-Challenges" class="headerlink" title="Introduction to CTF Challenges"></a>Introduction to CTF Challenges</h2><br>
+
+<h3 id="Significance-to-Participants"><a href="#Significance-to-Participants" class="headerlink" title="Significance to Participants"></a>Significance to Participants</h3><p>Highlight the importance of challenges in the CTF competition, emphasizing their critical role in engaging participants for 48 hours. Explain how these challenges were the centerpiece of the event, captivating users’ attention and fostering competitive spirit.</p>
+<br>
+
+<h3 id="Categories-and-Quantity"><a href="#Categories-and-Quantity" class="headerlink" title="Categories and Quantity"></a>Categories and Quantity</h3><p>Discuss the diverse categories and extensive range of challenges—approximately 60—that participants encountered. Explain how each category presented unique puzzles and problems for contestants to solve.</p>
+<br>
+
+<h2 id="Cloud-Infrastructure-and-Kubernetes"><a href="#Cloud-Infrastructure-and-Kubernetes" class="headerlink" title="Cloud Infrastructure and Kubernetes"></a>Cloud Infrastructure and Kubernetes</h2><br>
+
+<h3 id="Cloud-Powered-Replicas"><a href="#Cloud-Powered-Replicas" class="headerlink" title="Cloud-Powered Replicas"></a>Cloud-Powered Replicas</h3><p>Explain the significance of cloud infrastructure, particularly Kubernetes, in ensuring seamless challenge availability. Describe Kubernetes’ role in managing replicas to serve different pods, ensuring uninterrupted access to challenges even if one pod faces issues.</p>
+<br>
+
+<h3 id="File-System-Evolution"><a href="#File-System-Evolution" class="headerlink" title="File System Evolution"></a>File System Evolution</h3><p>Highlight the iterative process of changing the file system structure over four iterations. Describe the rationale behind these changes and how they were pivotal in establishing an optimal and logical structure for challenge management.</p>
+<br>
+
+<h2 id="Key-Aspects-of-Challenges"><a href="#Key-Aspects-of-Challenges" class="headerlink" title="Key Aspects of Challenges"></a>Key Aspects of Challenges</h2><br>
+
+<h3 id="Challenge-Complexity"><a href="#Challenge-Complexity" class="headerlink" title="Challenge Complexity"></a>Challenge Complexity</h3><p>Discuss the varying levels of complexity across challenges, catering to participants with different skill sets and expertise. Explain how this diversity added depth to the competition.</p>
+<br>
+
+<h3 id="Engagement-and-Interaction"><a href="#Engagement-and-Interaction" class="headerlink" title="Engagement and Interaction"></a>Engagement and Interaction</h3><p>Detail how challenges encouraged active engagement and interaction among participants. Discuss strategies employed to promote collaboration or competition among contestants.</p>
+<br>
+
+<h3 id="Real-World-Relevance"><a href="#Real-World-Relevance" class="headerlink" title="Real-World Relevance"></a>Real-World Relevance</h3><p>Emphasize the real-world applicability or significance of challenges, showcasing how they simulated scenarios encountered in cybersecurity or practical problem-solving.</p>
+<br>
+
+<h2 id="Evolution-and-Adaptation"><a href="#Evolution-and-Adaptation" class="headerlink" title="Evolution and Adaptation"></a>Evolution and Adaptation</h2><br>
+
+<h3 id="Continuous-Improvements"><a href="#Continuous-Improvements" class="headerlink" title="Continuous Improvements"></a>Continuous Improvements</h3><p>Share insights into how challenges evolved throughout the competition, incorporating feedback or insights from user interactions or testing.</p>
+<br>
+
+<h3 id="Structural-Adaptations"><a href="#Structural-Adaptations" class="headerlink" title="Structural Adaptations"></a>Structural Adaptations</h3><p>Elaborate on how structural changes in challenge arrangement aimed to optimize user experience and facilitate logical navigation.</p>
+<br>
+
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><br>
+
+<h3 id="Participant-Feedback-and-Reception"><a href="#Participant-Feedback-and-Reception" class="headerlink" title="Participant Feedback and Reception"></a>Participant Feedback and Reception</h3><p>Discuss the feedback received from participants regarding the challenges. Highlight positive responses or areas for improvement based on user experiences during the 48-hour competition.</p>
+<br>
+
+<h3 id="Future-Developments"><a href="#Future-Developments" class="headerlink" title="Future Developments"></a>Future Developments</h3><p>Offer a glimpse into potential future developments or enhancements for challenges in subsequent editions of SMCC, based on lessons learned and user feedback.</p>
+<br>
+
+<hr>
+<hr>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/CTFs/" rel="tag"><i class="fa fa-tag"></i> CTFs</a>
+              <a href="/tags/CSCTF-2024/" rel="tag"><i class="fa fa-tag"></i> CSCTF 2024</a>
+              <a href="/tags/How-to-organize-a-CTF-competition/" rel="tag"><i class="fa fa-tag"></i> How to organize a CTF competition</a>
+              <a href="/tags/Challenges/" rel="tag"><i class="fa fa-tag"></i> Challenges</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/CTFs/CSCTF%202024/1.%20Infrastructure/5/" rel="prev" title="1.5. CSCTF 2024 - Intrastructure - Scripts">
+                  <i class="fa fa-angle-left"></i> 1.5. CSCTF 2024 - Intrastructure - Scripts
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/CTFs/CSCTF%202024/2.%20Challenges/2/" rel="next" title="2.2. CSCTF 2024 - Challenges - Containers">
+                  2.2. CSCTF 2024 - Challenges - Containers <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">ChronosPK | Marin Radu</span>
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="Back to top">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+  <a href="https://github.com/ChronosPK" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/next-theme-pjax/0.6.0/pjax.min.js" integrity="sha256-vxLn1tSKWD4dqbMRyv940UYw4sXgMtYcK6reefzZrao=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/medium-zoom/1.1.0/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script><script src="/js/pjax.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+  <script src="/js/third-party/pace.js"></script>
+
+
+  
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js" integrity="sha256-yvJQOINiH9fWemHn0vCA5lsHWJaHs6/ZmO+1Ft04SvM=" crossorigin="anonymous"></script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":false,"delay":true,"timeout":3000,"priority":true,"url":"https://chronossec.site/CTFs/CSCTF%202024/2.%20Challenges/1/"}</script>
+  <script src="/js/third-party/quicklink.js"></script>
+
+</body>
+</html>
