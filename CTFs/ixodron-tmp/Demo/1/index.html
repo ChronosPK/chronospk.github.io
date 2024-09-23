@@ -21,30 +21,30 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"chronossec.site","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.21.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"always","padding":18,"offset":12},"hljswrap":false,"copycode":{"enable":true,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="Step 2 in a penetration test: Reconnaissance.Network (for singe and multiple hosts) and OSINT recon.">
+    <meta name="description" content="Primul set de exerciții din seria de Demo-uri">
 <meta property="og:type" content="article">
-<meta property="og:title" content="2. Reconnaissance - Linux">
-<meta property="og:url" content="https://chronossec.site/Pentesting/Linux/2/index.html">
+<meta property="og:title" content="ixodron 2024 - Demo 1">
+<meta property="og:url" content="https://chronossec.site/CTFs/ixodron-tmp/Demo/1/index.html">
 <meta property="og:site_name" content="Chronos Security">
-<meta property="og:description" content="Step 2 in a penetration test: Reconnaissance.Network (for singe and multiple hosts) and OSINT recon.">
+<meta property="og:description" content="Primul set de exerciții din seria de Demo-uri">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2024-08-02T07:00:00.000Z">
-<meta property="article:modified_time" content="2024-09-23T06:17:13.051Z">
+<meta property="article:published_time" content="2024-09-03T07:00:00.000Z">
+<meta property="article:modified_time" content="2024-09-23T06:17:13.050Z">
 <meta property="article:author" content="ChronosPK | Marin Radu">
-<meta property="article:tag" content="Pentesting">
-<meta property="article:tag" content="Linux">
-<meta property="article:tag" content="Reconnaissance">
+<meta property="article:tag" content="CTFs">
+<meta property="article:tag" content="ixodron 2024">
+<meta property="article:tag" content="Demo">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://chronossec.site/Pentesting/Linux/2/">
+<link rel="canonical" href="https://chronossec.site/CTFs/ixodron-tmp/Demo/1/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://chronossec.site/Pentesting/Linux/2/","path":"Pentesting/Linux/2/","title":"2. Reconnaissance - Linux"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://chronossec.site/CTFs/ixodron-tmp/Demo/1/","path":"CTFs/ixodron-tmp/Demo/1/","title":"ixodron 2024 - Demo 1"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>2. Reconnaissance - Linux | Chronos Security</title>
+<title>ixodron 2024 - Demo 1 | Chronos Security</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-GMH7MEYY9C"></script>
   <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"G-GMH7MEYY9C","only_pageview":false,"measure_protocol_api_secret":null}</script>
@@ -149,7 +149,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Prepare-your-environment"><span class="nav-text">Prepare your environment</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Network-recon"><span class="nav-text">Network recon</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Single-host-recon"><span class="nav-text">Single host recon</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#OSINT-recon"><span class="nav-text">OSINT recon</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-Scanarea-retelei"><span class="nav-text">1. Scanarea rețelei</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-Server-FTP"><span class="nav-text">2. Server FTP</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-Server-SMB"><span class="nav-text">3. Server SMB</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-Server-SSH"><span class="nav-text">4. Server SSH</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -251,7 +251,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://chronossec.site/Pentesting/Linux/2/">
+    <link itemprop="mainEntityOfPage" href="https://chronossec.site/CTFs/ixodron-tmp/Demo/1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/uploads/logo/windows-linux.png">
@@ -264,12 +264,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="2. Reconnaissance - Linux | Chronos Security">
+      <meta itemprop="name" content="ixodron 2024 - Demo 1 | Chronos Security">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          2. Reconnaissance - Linux
+          ixodron 2024 - Demo 1
         </h1>
 
         <div class="post-meta-container">
@@ -287,11 +287,15 @@
       </span>
       <span class="post-meta-item-text">In</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/Pentesting/" itemprop="url" rel="index"><span itemprop="name">Pentesting</span></a>
+          <a href="/categories/CTFs/" itemprop="url" rel="index"><span itemprop="name">CTFs</span></a>
         </span>
           , 
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/Pentesting/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a>
+          <a href="/categories/CTFs/ixodron-2024/" itemprop="url" rel="index"><span itemprop="name">ixodron 2024</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/CTFs/ixodron-2024/2-Demo/" itemprop="url" rel="index"><span itemprop="name">2. Demo</span></a>
         </span>
     </span>
 
@@ -305,74 +309,175 @@
     
     
     <div class="post-body" itemprop="articleBody"><hr>
-<p>Step 2 in a penetration test: Reconnaissance.<br>Network (for singe and multiple hosts) and OSINT recon.</p>
+<blockquote>
+<p>Primul set de exerciții din seria de <code>Demo</code>-uri</p>
+</blockquote>
 <hr>
 <span id="more"></span>
 
 <br>
 
-<h2 id="Prepare-your-environment"><a href="#Prepare-your-environment" class="headerlink" title="Prepare your environment"></a>Prepare your environment</h2><pre><div class="caption"><span>Create a separate directory for the target</span></div><code class="highlight bash"><span class="comment"># replace &#x27;target&#x27;</span>
-<span class="built_in">mkdir</span> -p ~/pentests/target</code></pre>
+<h2 id="1-Scanarea-retelei"><a href="#1-Scanarea-retelei" class="headerlink" title="1. Scanarea rețelei"></a>1. Scanarea rețelei</h2><blockquote>
+<p>În această etapă, vom folosi comanda <code>nmap</code> pentru a descoperi ce servicii rulează pe containerul <strong>Docker</strong> descărcat. Vom afla ce porturi sunt deschise și ce servicii sunt active, cum ar fi <strong>FTP</strong>, <strong>SMB</strong> și <strong>SSH</strong>.</p>
+</blockquote>
+<p><strong>1.1. Alegerea rețelei</strong></p>
+<pre><code class="highlight plaintext">Legal advice: don&#x27;t try to hack anything that you don&#x27;t own or don&#x27;t have explicit consent of.</code></pre>
 
-<pre><div class="caption"><span>Prepare the environment variables</span></div><code class="highlight bash"><span class="built_in">export</span> NET=10.10.10.0/24
-<span class="built_in">export</span> domain=example.com
-<span class="built_in">export</span> IP=10.10.10.1
-<span class="built_in">export</span> URL=http://<span class="variable">$IP</span>
-<span class="comment"># I don&#x27;t advice using $URL because you might miss other ports or HTTPS</span>
-<span class="comment"># Remember to add odd web ports (8080,8000,8008) and https if needed</span></code></pre>
+<blockquote>
+<p>Vom descărca un <strong>container</strong> tip <strong>Docker</strong>.<br><strong>Docker</strong> este folosit zilnic în dezvoltare și securitate pentru a crea medii izolate, replicabile.<br>Este popular în CTF-uri și teste de penetrare pentru simularea mediilor de rețea.</p>
+</blockquote>
+<p><strong>1.2. Descărcarea unui container docker ales</strong></p>
+<blockquote>
+<p>Instalam programul <code>docker</code></p>
+</blockquote>
+<pre><code class="highlight bash"><span class="built_in">sudo</span> apt update
+<span class="built_in">sudo</span> apt install -y docker.io</code></pre>
+<blockquote>
+<p>Containerul se numește <code>ixo-network-recon</code>, versiunea <code>2.0</code><br>Extragem imaginea containerului </p>
+</blockquote>
+<pre><code class="highlight bash"><span class="built_in">sudo</span> docker pull chronospkk/ixo-network-recon:2.0</code></pre>
+<blockquote>
+<p>Rulăm container-ul </p>
+</blockquote>
+<pre><code class="highlight bash"><span class="built_in">sudo</span> docker run -d --name ixo ixo-network-recon:2.0</code></pre>
+<blockquote>
+<p>Verificăm execuția</p>
+</blockquote>
+<pre><code class="highlight bash"><span class="built_in">sudo</span> docker ps</code></pre>
 
-<pre><div class="caption"><span>Prepare files and directories</span></div><code class="highlight bash"><span class="built_in">mkdir</span> vulns recon files notes
-<span class="built_in">touch</span> notes/&#123;notes.txt,users.txt,passwords.txt,hashes.txt,creds.txt&#125;</code></pre>
+<p><strong>1.3. Scanarea rețelei interne cu un tool dedicat: <code>nmap</code></strong></p>
+<blockquote>
+<p>Identificăm interfețele de rețea (ale mașinii virtuale)</p>
+</blockquote>
+<pre><code class="highlight bash">ip a s
+ifconfig</code></pre>
+<blockquote>
+<p>Scanăm rețeaua în care se află containerul <code>Docker</code></p>
+</blockquote>
+<pre><code class="highlight bash">nmap -sn -T4 172.17.0.1/24 -oN nmap.network</code></pre>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Descriere</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>-sn</code></td>
+<td>Nu scanează porturi</td>
+</tr>
+<tr>
+<td><code>-T4</code></td>
+<td>Scanare rapidă (viteza 4&#x2F;5)</td>
+</tr>
+<tr>
+<td><code>172.17.0.1/24</code></td>
+<td>Rețeaua țintă</td>
+</tr>
+<tr>
+<td><code>-oN nmap.network</code></td>
+<td>Salvează rezultatul într-un fișier text</td>
+</tr>
+</tbody></table>
+<p><strong>1.4. Scanare mașinii țintă</strong></p>
+<blockquote>
+<p>scanăm containerul <code>Docker</code></p>
+</blockquote>
+<pre><code class="highlight bash">nmap -Pn -T4 -sV -v 172.17.0.2 -oN nmap.host</code></pre>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Descriere</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>-Pn</code></td>
+<td>Nu încerca <code>host discovery</code> (no ping)</td>
+</tr>
+<tr>
+<td><code>-T4</code></td>
+<td>Scanare rapidă (viteza 4&#x2F;5)</td>
+</tr>
+<tr>
+<td><code>-sV</code></td>
+<td>Detectarea versiunii serviciilor</td>
+</tr>
+<tr>
+<td><code>-v</code></td>
+<td>Verbose output - afișează mai multe detalii</td>
+</tr>
+<tr>
+<td><code>--max-retries 5</code></td>
+<td>Retransmite cererea de conectare doar de 5 ori (10 este default)</td>
+</tr>
+<tr>
+<td><code>172.17.0.2</code></td>
+<td>IP-ul țintă</td>
+</tr>
+<tr>
+<td><code>-oN nmap.host</code></td>
+<td>Salvează rezultatul într-un fișier text</td>
+</tr>
+</tbody></table>
+<br>
+<br>
+
+
+<h2 id="2-Server-FTP"><a href="#2-Server-FTP" class="headerlink" title="2. Server FTP"></a>2. Server FTP</h2><blockquote>
+<p><strong>FTP</strong> (File Transfer Protocol) este un protocol vechi folosit pentru transferul de fișiere între client și server.<br>Este încă utilizat, în special pentru transferul fișierelor mari în infrastructuri care nu au adoptat alternative moderne (ex. <strong>SFTP</strong>).<br><strong>FTP</strong> poate permite acces anonim sau autentificat și este frecvent întâlnit în rețele vechi sau nesecurizate.<br>Cu toate acestea, din cauza lipsei criptării, este considerat nesigur.</p>
+</blockquote>
+<p><strong>Conectare anonimă la serverul FTP</strong></p>
+<pre><div class="caption"><span>1</span></div><code class="highlight bash">ftp 172.17.0.2
+<span class="comment"># Username: anonymous</span></code></pre>
+<pre><div class="caption"><span>2</span></div><code class="highlight bash">ftp anonymous@172.17.0.2</code></pre>
+
+
+<p><strong>Conectare autentificată la serverul FTP</strong></p>
+<pre><code class="highlight bash">ftp ftp_user@172.17.0.2
+<span class="comment">#Password: ftp_password_123!</span></code></pre>
+
+
+<br>
+<br>
+
+
+<h2 id="3-Server-SMB"><a href="#3-Server-SMB" class="headerlink" title="3. Server SMB"></a>3. Server SMB</h2><blockquote>
+<p><strong>SMB</strong> (Server Message Block) este folosit pentru partajarea fișierelor și imprimantelor în rețelele locale, mai ales în rețelele de birouri bazate pe Windows.<br>Acesta permite utilizatorilor să colaboreze pe aceleași fișiere din rețea, oferind acces autenticat sau public la foldere și fișiere partajate.<br><strong>SMB</strong> este un protocol esențial în multe infrastructuri de dimensiuni mari.</p>
+</blockquote>
+<p><strong>3.1. Enumerarea automată a serverului SMB</strong></p>
+<pre><div class="caption"><span>Ce foldere sunt partajate și ce acces avem la ele?</span></div><code class="highlight bash">smbmap -H <span class="variable">$IP</span></code></pre>
+
+<pre><div class="caption"><span>La ce fișiere avem acces?</span></div><code class="highlight bash">smbmap -H <span class="variable">$IP</span> -r</code></pre>
+<pre><div class="caption"><span>Specificăm un folder pe care vrem să îl enumerăm</span></div><code class="highlight bash">smbmap -H <span class="variable">$IP</span> -r public
+smbmap -H <span class="variable">$IP</span> -r private</code></pre>
+<pre><div class="caption"><span>Enumerare automată cu autentificare</span></div><code class="highlight bash">smbmap -H <span class="variable">$IP</span> -u smb_user -p <span class="string">&#x27;smb_password_123!&#x27;</span>
+smbmap -H <span class="variable">$IP</span> -u smb_user -p <span class="string">&#x27;smb_password_123!&#x27;</span> -r</code></pre>
 
 <br>
 
-<h2 id="Network-recon"><a href="#Network-recon" class="headerlink" title="Network recon"></a>Network recon</h2><br>
-<pre><div class="caption"><span>netdiscover</span></div><code class="highlight bash"><span class="built_in">sudo</span> netdiscover -i eth0 -r <span class="variable">$NET</span></code></pre>
-<pre><div class="caption"><span>fping</span></div><code class="highlight bash">fping -a -g <span class="variable">$NET</span> 2&gt;/dev/null &gt; recon/hosts</code></pre>
-<pre><div class="caption"><span>masscan</span></div><code class="highlight bash">masscan <span class="variable">$NET</span> –<span class="built_in">echo</span> &gt; recon/masscan-output.conf</code></pre>
-<pre><div class="caption"><span>nmap</span></div><code class="highlight bash">nmap -sn <span class="variable">$NET</span> -oA recon/nmap.discovery;
-<span class="built_in">cat</span> recon/nmap.discovery | grep -i report | <span class="built_in">cut</span> -d<span class="string">&#x27; &#x27;</span> -f5 &gt; recon/hosts</code></pre>
-<pre><div class="caption"><span>no man's land</span></div><code class="highlight bash"><span class="keyword">for</span> ip <span class="keyword">in</span> 30 31 35; <span class="keyword">do</span> ping -c 1 -W 1 10.10.10.<span class="variable">$ip</span> &amp;&gt;/dev/null &amp;&amp; <span class="built_in">echo</span> <span class="string">&quot;10.10.10.<span class="variable">$ip</span> is up&quot;</span>; <span class="keyword">done</span></code></pre>
+<p><strong>3.2. Conectare anonimă la serverul SMB</strong></p>
+<pre><div class="caption"><span>Conectare la serverul SMB</span></div><code class="highlight bash">smbclient -N //172.17.0.2/public</code></pre>
 
 <br>
 
-<h2 id="Single-host-recon"><a href="#Single-host-recon" class="headerlink" title="Single host recon"></a>Single host recon</h2><pre><div class="caption"><span>Nmap intelligent scan</span></div><code class="highlight bash"><span class="comment"># initial scan</span>
-nmap -Pn -T4 -p- --open --max-retries 5 --system-dns --stats-every 5s <span class="variable">$IP</span> --oA recon/nmap.init
-<span class="comment"># extract open ports</span>
-<span class="built_in">cat</span> recon/nmap.init.nmap | grep <span class="string">&#x27;/.*open&#x27;</span>| <span class="built_in">cut</span> -d <span class="string">&#x27;/&#x27;</span> -f 1| <span class="built_in">tr</span> <span class="string">&#x27;\n&#x27;</span> <span class="string">&#x27;, &#x27;</span>| sed <span class="string">&#x27;s/.$//g&#x27;</span> &gt; recon/ports;
-<span class="comment"># full scan on open ports</span>
-<span class="built_in">sudo</span> nmap -Pn -sV -n -v -A -T4 -p $(<span class="built_in">cat</span> recon/ports) <span class="variable">$IP</span> -oA recon/nmap.alltcp</code></pre>
-<pre><div class="caption"><span>Nmap vuln scan (with open ports)</span></div><code class="highlight bash">nmap --script vulners -Pn -sC -sV -v -A -T4 -p $(<span class="built_in">cat</span> recon/ports) <span class="variable">$IP</span> -oA recon/nmap.vuln</code></pre>
-<pre><div class="caption"><span>Nmap UDP scan (takes long)</span></div><code class="highlight bash">nmap -sCVU -n -F -T4 <span class="variable">$IP</span> -oA recon/nmap.udp</code></pre>
-<pre><div class="caption"><span>Nmap IPv6 scan</span></div><code class="highlight bash">ping -6 <span class="variable">$IP</span>
-dig AAAA <span class="variable">$domain</span>
-
-nmap -p- -6 --min-rate 10000 <span class="variable">$IPv6</span>
-&lt;br&gt;
-
-```bash Rustscan
-rustscan -a <span class="variable">$IP</span> --<span class="built_in">ulimit</span> 5000 --batch-size 2500 -- -sC -sV -v -oN recon/rustscan.init</code></pre>
-
-<pre><div class="caption"><span>Autorecon</span></div><code class="highlight bash">autorecon -v --heartbeat 10</code></pre>
-
-<pre><div class="caption"><span>Zenmap (GUI interface)</span></div><code class="highlight bash">zenmap</code></pre>
-
-<pre><div class="caption"><span>Legion (GUI interface)</span></div><code class="highlight bash"><span class="built_in">sudo</span> legion</code></pre>
-<br>
-
-<pre><div class="caption"><span>no man's land</span></div><code class="highlight bash"><span class="keyword">for</span> ip <span class="keyword">in</span> 30 31 35; <span class="keyword">do</span>
-    <span class="built_in">echo</span> <span class="string">&quot;Scanning 10.10.10.<span class="variable">$ip</span>&quot;</span>
-    <span class="keyword">for</span> port <span class="keyword">in</span> &#123;1..65535&#125;; <span class="keyword">do</span>
-        (<span class="built_in">echo</span> &gt; /dev/tcp/10.10.10.<span class="variable">$ip</span>/<span class="variable">$port</span>) &amp;&gt;/dev/null &amp;&amp; <span class="built_in">echo</span> <span class="string">&quot;Port <span class="variable">$port</span> is open on 10.10.10.<span class="variable">$ip</span>&quot;</span>
-    <span class="keyword">done</span>
-<span class="keyword">done</span></code></pre>
-
+<p><strong>3.2. Conectare autentificată la serverul SMB</strong></p>
+<pre><div class="caption"><span>Conectare la serverul SMB</span></div><code class="highlight bash">smbclient //172.17.0.2/private -U smb_user%<span class="string">&#x27;smb_password_123!&#x27;</span></code></pre>
 
 <br>
 
-<h2 id="OSINT-recon"><a href="#OSINT-recon" class="headerlink" title="OSINT recon"></a>OSINT recon</h2><pre><code class="highlight bash">recon-ng</code></pre>
+<h2 id="4-Server-SSH"><a href="#4-Server-SSH" class="headerlink" title="4. Server SSH"></a>4. Server SSH</h2><blockquote>
+<p><strong>SSH</strong> (Secure Shell) este protocolul standard pentru acces securizat la servere de la distanță.<br><strong>SSH</strong> este criptat și oferă autentificare prin parole sau chei publice&#x2F;private, fiind folosit în mod obișnuit pentru administrarea serverelor.<br>Este esențial pentru sysadmini și devops, fiind folosit zilnic pentru accesul la servere sau la mașini virtuale.</p>
+</blockquote>
+<pre><div class="caption"><span>Conectare la serverul SSH</span></div><code class="highlight bash">ssh ssh_user@172.17.0.2
+<span class="comment"># Password: ssh_password_123!</span></code></pre>
 
 <br>
+<br>
+
+<p style="text-align:center">
+  <b>NEXT</b>: <a href="/CTFs/ixodron/Demo/2/" target="_blank">Demo 2</a>
+</p>
 
 <hr>
 <hr>
@@ -385,22 +490,22 @@ rustscan -a <span class="variable">$IP</span> --<span class="built_in">ulimit</s
 
     <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/Pentesting/" rel="tag"><i class="fa fa-tag"></i> Pentesting</a>
-              <a href="/tags/Linux/" rel="tag"><i class="fa fa-tag"></i> Linux</a>
-              <a href="/tags/Reconnaissance/" rel="tag"><i class="fa fa-tag"></i> Reconnaissance</a>
+              <a href="/tags/CTFs/" rel="tag"><i class="fa fa-tag"></i> CTFs</a>
+              <a href="/tags/ixodron-2024/" rel="tag"><i class="fa fa-tag"></i> ixodron 2024</a>
+              <a href="/tags/Demo/" rel="tag"><i class="fa fa-tag"></i> Demo</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/Pentesting/Linux/1/" rel="prev" title="1. Preparation - Linux">
-                  <i class="fa fa-angle-left"></i> 1. Preparation - Linux
+                <a href="/CTFs/ixodron-tmp/Demo/2/" rel="prev" title="ixodron 2024 - Demo 2">
+                  <i class="fa fa-angle-left"></i> ixodron 2024 - Demo 2
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/Pentesting/Linux/3/" rel="next" title="3. Enumeration - Linux">
-                  3. Enumeration - Linux <i class="fa fa-angle-right"></i>
+                <a href="/CTFs/ixodron-tmp/intro/" rel="next" title="ixodron 2024 - Introduction">
+                  ixodron 2024 - Introduction <i class="fa fa-angle-right"></i>
                 </a>
             </div>
           </div>
@@ -473,7 +578,7 @@ rustscan -a <span class="variable">$IP</span> --<span class="built_in">ulimit</s
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js" integrity="sha256-yvJQOINiH9fWemHn0vCA5lsHWJaHs6/ZmO+1Ft04SvM=" crossorigin="anonymous"></script>
-  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":false,"delay":true,"timeout":3000,"priority":true,"url":"https://chronossec.site/Pentesting/Linux/2/"}</script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":false,"delay":true,"timeout":3000,"priority":true,"url":"https://chronossec.site/CTFs/ixodron-tmp/Demo/1/"}</script>
   <script src="/js/third-party/quicklink.js"></script>
 
 </body>
