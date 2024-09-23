@@ -21,30 +21,30 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"chronossec.site","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.21.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"always","padding":18,"offset":12},"hljswrap":false,"copycode":{"enable":true,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="Step 2 in a penetration test: Reconnaissance.Network (for singe and multiple hosts) and OSINT recon.">
+    <meta name="description" content="Al doilea set de exerciții din seria de Demo-uri">
 <meta property="og:type" content="article">
-<meta property="og:title" content="2. Reconnaissance - Linux">
-<meta property="og:url" content="https://chronossec.site/Pentesting/Linux/2/index.html">
+<meta property="og:title" content="ixodron 2024 - Demo 2">
+<meta property="og:url" content="https://chronossec.site/CTFs/ixodron-tmp/Demo/2/index.html">
 <meta property="og:site_name" content="Chronos Security">
-<meta property="og:description" content="Step 2 in a penetration test: Reconnaissance.Network (for singe and multiple hosts) and OSINT recon.">
+<meta property="og:description" content="Al doilea set de exerciții din seria de Demo-uri">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2024-08-02T07:00:00.000Z">
-<meta property="article:modified_time" content="2024-09-23T06:17:13.051Z">
+<meta property="article:published_time" content="2024-09-03T06:00:00.000Z">
+<meta property="article:modified_time" content="2024-09-23T06:17:13.050Z">
 <meta property="article:author" content="ChronosPK | Marin Radu">
-<meta property="article:tag" content="Pentesting">
-<meta property="article:tag" content="Linux">
-<meta property="article:tag" content="Reconnaissance">
+<meta property="article:tag" content="CTFs">
+<meta property="article:tag" content="ixodron 2024">
+<meta property="article:tag" content="Demo">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://chronossec.site/Pentesting/Linux/2/">
+<link rel="canonical" href="https://chronossec.site/CTFs/ixodron-tmp/Demo/2/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://chronossec.site/Pentesting/Linux/2/","path":"Pentesting/Linux/2/","title":"2. Reconnaissance - Linux"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://chronossec.site/CTFs/ixodron-tmp/Demo/2/","path":"CTFs/ixodron-tmp/Demo/2/","title":"ixodron 2024 - Demo 2"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>2. Reconnaissance - Linux | Chronos Security</title>
+<title>ixodron 2024 - Demo 2 | Chronos Security</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-GMH7MEYY9C"></script>
   <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"G-GMH7MEYY9C","only_pageview":false,"measure_protocol_api_secret":null}</script>
@@ -149,7 +149,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Prepare-your-environment"><span class="nav-text">Prepare your environment</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Network-recon"><span class="nav-text">Network recon</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Single-host-recon"><span class="nav-text">Single host recon</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#OSINT-recon"><span class="nav-text">OSINT recon</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-Server-web"><span class="nav-text">1. Server web</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-Parole-personalizate"><span class="nav-text">2. Parole personalizate</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-Arhiva-ZIP"><span class="nav-text">3. Arhiva ZIP</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-Wi-Fi"><span class="nav-text">4. Wi-Fi</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -251,7 +251,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://chronossec.site/Pentesting/Linux/2/">
+    <link itemprop="mainEntityOfPage" href="https://chronossec.site/CTFs/ixodron-tmp/Demo/2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/uploads/logo/windows-linux.png">
@@ -264,12 +264,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="2. Reconnaissance - Linux | Chronos Security">
+      <meta itemprop="name" content="ixodron 2024 - Demo 2 | Chronos Security">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          2. Reconnaissance - Linux
+          ixodron 2024 - Demo 2
         </h1>
 
         <div class="post-meta-container">
@@ -287,11 +287,15 @@
       </span>
       <span class="post-meta-item-text">In</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/Pentesting/" itemprop="url" rel="index"><span itemprop="name">Pentesting</span></a>
+          <a href="/categories/CTFs/" itemprop="url" rel="index"><span itemprop="name">CTFs</span></a>
         </span>
           , 
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/Pentesting/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a>
+          <a href="/categories/CTFs/ixodron-2024/" itemprop="url" rel="index"><span itemprop="name">ixodron 2024</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/CTFs/ixodron-2024/2-Demo/" itemprop="url" rel="index"><span itemprop="name">2. Demo</span></a>
         </span>
     </span>
 
@@ -305,74 +309,181 @@
     
     
     <div class="post-body" itemprop="articleBody"><hr>
-<p>Step 2 in a penetration test: Reconnaissance.<br>Network (for singe and multiple hosts) and OSINT recon.</p>
+<blockquote>
+<p>Al doilea set de exerciții din seria de <code>Demo</code>-uri</p>
+</blockquote>
 <hr>
 <span id="more"></span>
 
 <br>
 
-<h2 id="Prepare-your-environment"><a href="#Prepare-your-environment" class="headerlink" title="Prepare your environment"></a>Prepare your environment</h2><pre><div class="caption"><span>Create a separate directory for the target</span></div><code class="highlight bash"><span class="comment"># replace &#x27;target&#x27;</span>
-<span class="built_in">mkdir</span> -p ~/pentests/target</code></pre>
-
-<pre><div class="caption"><span>Prepare the environment variables</span></div><code class="highlight bash"><span class="built_in">export</span> NET=10.10.10.0/24
-<span class="built_in">export</span> domain=example.com
-<span class="built_in">export</span> IP=10.10.10.1
-<span class="built_in">export</span> URL=http://<span class="variable">$IP</span>
-<span class="comment"># I don&#x27;t advice using $URL because you might miss other ports or HTTPS</span>
-<span class="comment"># Remember to add odd web ports (8080,8000,8008) and https if needed</span></code></pre>
-
-<pre><div class="caption"><span>Prepare files and directories</span></div><code class="highlight bash"><span class="built_in">mkdir</span> vulns recon files notes
-<span class="built_in">touch</span> notes/&#123;notes.txt,users.txt,passwords.txt,hashes.txt,creds.txt&#125;</code></pre>
-
+<h2 id="1-Server-web"><a href="#1-Server-web" class="headerlink" title="1. Server web"></a>1. Server web</h2><blockquote>
+<p>Executarea unor teste de securitate de bază pe un server web pentru a-i înțelege caracteristicile</p>
+</blockquote>
+<p><strong>1.1. Codul sursă</strong><br>Deschide pagina în browser la adresa <code>https://chronossec.site</code><br>Vezi codul sursă: <code>click-dreapta</code>, <code>View page source</code></p>
+<blockquote>
+<p><strong>TASK</strong>: Ce generator de site este folosit? Ce versiune este? (cuvinte cheie: <code>generator</code>, <code>version</code>)</p>
+</blockquote>
 <br>
 
-<h2 id="Network-recon"><a href="#Network-recon" class="headerlink" title="Network recon"></a>Network recon</h2><br>
-<pre><div class="caption"><span>netdiscover</span></div><code class="highlight bash"><span class="built_in">sudo</span> netdiscover -i eth0 -r <span class="variable">$NET</span></code></pre>
-<pre><div class="caption"><span>fping</span></div><code class="highlight bash">fping -a -g <span class="variable">$NET</span> 2&gt;/dev/null &gt; recon/hosts</code></pre>
-<pre><div class="caption"><span>masscan</span></div><code class="highlight bash">masscan <span class="variable">$NET</span> –<span class="built_in">echo</span> &gt; recon/masscan-output.conf</code></pre>
-<pre><div class="caption"><span>nmap</span></div><code class="highlight bash">nmap -sn <span class="variable">$NET</span> -oA recon/nmap.discovery;
-<span class="built_in">cat</span> recon/nmap.discovery | grep -i report | <span class="built_in">cut</span> -d<span class="string">&#x27; &#x27;</span> -f5 &gt; recon/hosts</code></pre>
-<pre><div class="caption"><span>no man's land</span></div><code class="highlight bash"><span class="keyword">for</span> ip <span class="keyword">in</span> 30 31 35; <span class="keyword">do</span> ping -c 1 -W 1 10.10.10.<span class="variable">$ip</span> &amp;&gt;/dev/null &amp;&amp; <span class="built_in">echo</span> <span class="string">&quot;10.10.10.<span class="variable">$ip</span> is up&quot;</span>; <span class="keyword">done</span></code></pre>
-
+<p><strong>1.2. Developer tools - network tab</strong></p>
+<p>Deschide Developer Tools: <code>Fn + F12</code> sau <code>CTRL+SHIFT+I</code><br>Selectează <code>Network Tab</code><br>Reîncarcă pagina pentru a vedea traficul de date: <code>CTRL+R</code></p>
+<blockquote>
+<p><strong>TASK</strong>: Selectează doar imagini și salvează logo-ul paginii.</p>
+</blockquote>
 <br>
 
-<h2 id="Single-host-recon"><a href="#Single-host-recon" class="headerlink" title="Single host recon"></a>Single host recon</h2><pre><div class="caption"><span>Nmap intelligent scan</span></div><code class="highlight bash"><span class="comment"># initial scan</span>
-nmap -Pn -T4 -p- --open --max-retries 5 --system-dns --stats-every 5s <span class="variable">$IP</span> --oA recon/nmap.init
-<span class="comment"># extract open ports</span>
-<span class="built_in">cat</span> recon/nmap.init.nmap | grep <span class="string">&#x27;/.*open&#x27;</span>| <span class="built_in">cut</span> -d <span class="string">&#x27;/&#x27;</span> -f 1| <span class="built_in">tr</span> <span class="string">&#x27;\n&#x27;</span> <span class="string">&#x27;, &#x27;</span>| sed <span class="string">&#x27;s/.$//g&#x27;</span> &gt; recon/ports;
-<span class="comment"># full scan on open ports</span>
-<span class="built_in">sudo</span> nmap -Pn -sV -n -v -A -T4 -p $(<span class="built_in">cat</span> recon/ports) <span class="variable">$IP</span> -oA recon/nmap.alltcp</code></pre>
-<pre><div class="caption"><span>Nmap vuln scan (with open ports)</span></div><code class="highlight bash">nmap --script vulners -Pn -sC -sV -v -A -T4 -p $(<span class="built_in">cat</span> recon/ports) <span class="variable">$IP</span> -oA recon/nmap.vuln</code></pre>
-<pre><div class="caption"><span>Nmap UDP scan (takes long)</span></div><code class="highlight bash">nmap -sCVU -n -F -T4 <span class="variable">$IP</span> -oA recon/nmap.udp</code></pre>
-<pre><div class="caption"><span>Nmap IPv6 scan</span></div><code class="highlight bash">ping -6 <span class="variable">$IP</span>
-dig AAAA <span class="variable">$domain</span>
-
-nmap -p- -6 --min-rate 10000 <span class="variable">$IPv6</span>
-&lt;br&gt;
-
-```bash Rustscan
-rustscan -a <span class="variable">$IP</span> --<span class="built_in">ulimit</span> 5000 --batch-size 2500 -- -sC -sV -v -oN recon/rustscan.init</code></pre>
-
-<pre><div class="caption"><span>Autorecon</span></div><code class="highlight bash">autorecon -v --heartbeat 10</code></pre>
-
-<pre><div class="caption"><span>Zenmap (GUI interface)</span></div><code class="highlight bash">zenmap</code></pre>
-
-<pre><div class="caption"><span>Legion (GUI interface)</span></div><code class="highlight bash"><span class="built_in">sudo</span> legion</code></pre>
+<p><strong>1.3. Developer tools - storage tab</strong></p>
+<p>Deschide Developer Tools: <code>Fn + F12</code> sau <code>CTRL+SHIFT+I</code><br>Selectează <code>Storage</code><br>Vezi secțiunea de <code>Cookies</code></p>
+<blockquote>
+<p><strong>TASK</strong>: Șterge cookie-urile din browser.</p>
+</blockquote>
 <br>
 
-<pre><div class="caption"><span>no man's land</span></div><code class="highlight bash"><span class="keyword">for</span> ip <span class="keyword">in</span> 30 31 35; <span class="keyword">do</span>
-    <span class="built_in">echo</span> <span class="string">&quot;Scanning 10.10.10.<span class="variable">$ip</span>&quot;</span>
-    <span class="keyword">for</span> port <span class="keyword">in</span> &#123;1..65535&#125;; <span class="keyword">do</span>
-        (<span class="built_in">echo</span> &gt; /dev/tcp/10.10.10.<span class="variable">$ip</span>/<span class="variable">$port</span>) &amp;&gt;/dev/null &amp;&amp; <span class="built_in">echo</span> <span class="string">&quot;Port <span class="variable">$port</span> is open on 10.10.10.<span class="variable">$ip</span>&quot;</span>
-    <span class="keyword">done</span>
-<span class="keyword">done</span></code></pre>
+<p><strong>1.4. Certificat SSL</strong></p>
+<p>Iconița cu lacăt 🔒<br><code>Connection secure</code><br><code>More information</code><br><code>View certificate</code></p>
+<blockquote>
+<p><strong>TASK</strong>: Care este utilizarea cheii? (<code>Key usage</code>)</p>
+</blockquote>
+<br>
+<br>
+
+
+<h2 id="2-Parole-personalizate"><a href="#2-Parole-personalizate" class="headerlink" title="2. Parole personalizate"></a>2. Parole personalizate</h2><blockquote>
+<p>Crearea unor liste de parole personalizate pentru ținta atacului</p>
+</blockquote>
+<pre><code class="highlight bash"><span class="built_in">mkdir</span> -p /home/kali/demo-1/wordlist/
+<span class="built_in">cd</span> /home/kali/demo-1/wordlist/</code></pre>
+
+<p><strong>Instalează aplicația <code>cewl</code></strong></p>
+<pre><code class="highlight bash"><span class="built_in">sudo</span> apt install cewl -y
+cewl --<span class="built_in">help</span></code></pre>
+
+<p><strong>Generarea unei liste de parole personalizate pentru site-ul web ales</strong></p>
+<pre><code class="highlight bash">cewl https://chronossec.site -w wordlist.txt -m 5 -d 1 -v</code></pre>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Descriere</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>-w wordlist.txt</code></td>
+<td>numele fisierului ce va fi generat</td>
+</tr>
+<tr>
+<td><code>-m 5</code></td>
+<td>numarul minim de caractere al cuvintelor selectate</td>
+</tr>
+<tr>
+<td><code>-d 1</code></td>
+<td>depth - adancimea linkurilor verificate</td>
+</tr>
+<tr>
+<td><code>-v</code></td>
+<td>verbose - detalii despre process</td>
+</tr>
+</tbody></table>
+<p><strong>Verificarea listei de parole generate</strong></p>
+<pre><code class="highlight bash"><span class="built_in">cat</span> wordlist.txt
+<span class="built_in">wc</span> -l wordlist.txt</code></pre>
 
 
 <br>
+<br>
 
-<h2 id="OSINT-recon"><a href="#OSINT-recon" class="headerlink" title="OSINT recon"></a>OSINT recon</h2><pre><code class="highlight bash">recon-ng</code></pre>
+
+<h2 id="3-Arhiva-ZIP"><a href="#3-Arhiva-ZIP" class="headerlink" title="3. Arhiva ZIP"></a>3. Arhiva ZIP</h2><pre><code class="highlight bash"><span class="built_in">mkdir</span> -p /home/kali/demo-1/archive
+<span class="built_in">cd</span> /home/kali/demo-1/archive</code></pre>
+<blockquote>
+<p>Spargerea unei arhive protejate cu parolă<br><strong>Descarcă fișierul: <a href="https://chronossec.site/uploads/ixodron-ctf/demo-1/archive.zip" target="_blank">link</a>.</strong></p>
+</blockquote>
+<pre><code class="highlight bash">wget https://chronossec.site/uploads/ixodron-ctf/demo-1/archive.zip /home/kali/demo-1/archive/archive.zip</code></pre>
+
+<p><strong>Extrage lista extensivă de parole, <code>rockyou.txt</code></strong></p>
+<pre><code class="highlight bash"><span class="built_in">sudo</span> gzip -d /usr/share/wordlists/rockyou.txt.gz</code></pre>
+
+<p><strong>Sparge parola</strong></p>
+<ul>
+<li><p><code>Metoda 1</code></p>
+<blockquote>
+<p>Folosim <code>zip2john</code> pentru a converti parola arhivei într-un format compatibil cu <code>john</code>.</p>
+</blockquote>
+<pre><code class="highlight bash">zip2john archive.zip &gt; hash.txt
+john hash.txt --wordlist=/usr/share/wordlists/rockyou.txt</code></pre>
+</li>
+<li><p><code>Metoda 2</code></p>
+<blockquote>
+<p>Utilizăm <code>fcrackzip</code> pentru atac de dicționar direct asupra arhivei.</p>
+</blockquote>
+<pre><code class="highlight bash"><span class="built_in">sudo</span> apt install -y fcrackzip</code></pre>
+<pre><code class="highlight bash">fcrackzip -D -v -u -p /usr/share/wordlists/rockyou.txt archive.zip</code></pre>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Descriere</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>-D</code></td>
+<td>atac tip Dicționar</td>
+</tr>
+<tr>
+<td><code>-v</code></td>
+<td>mai multe informații (verbos)</td>
+</tr>
+<tr>
+<td><code>-u</code></td>
+<td>încearcă să dezarhiveze cu fiecare parolă generată</td>
+</tr>
+<tr>
+<td><code>-p</code></td>
+<td>fișierul cu lista de parole</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+<p><strong>Extrage fișerul</strong> (înlocuiește parola găsită)</p>
+<pre><code class="highlight bash">unzip -P password archive.zip</code></pre>
+
 
 <br>
+<br>
+
+
+<h2 id="4-Wi-Fi"><a href="#4-Wi-Fi" class="headerlink" title="4. Wi-Fi"></a>4. Wi-Fi</h2><blockquote>
+<p>Spargerea parolei unei rețele Wi-Fi protejate</p>
+</blockquote>
+<p><strong>4.1. Inserarea adaptorului de rețea (antena)</strong><br><br></p>
+<p><strong>4.2. Configurarea interfeței de rețea</strong></p>
+<pre><code class="highlight bash"><span class="built_in">sudo</span> ifconfig wlan0 down
+<span class="built_in">sudo</span> iwconfig wlan0 mode monitor
+<span class="built_in">sudo</span> ifconfig wlan0 down
+iwconfig</code></pre>
+<pre><code class="highlight bash"><span class="built_in">sudo</span> airmon-ng start wlan0
+airmon-ng check <span class="built_in">kill</span></code></pre>
+
+<p><strong>4.3.Alegerea rețelei și clientului țintă</strong></p>
+<pre><code class="highlight bash"><span class="built_in">sudo</span> airodump-ng wlan0</code></pre>
+<pre><code class="highlight plaintext">sudo airodump-ng --bssid &lt;INPUT&gt; --channel &lt;INPUT&gt; --write capturefile wlan0</code></pre>
+
+<p><strong>4.4. Deauthentificarea clientului de la rețea</strong></p>
+<blockquote>
+<p>Dacă trimitem un număr mic de pachete de deautentificare, clientul nu-și va da seama că a fost deconectat,<br>    iar noi vom putea intercepta direct parola criptată trimisă de acesta către router (access point)</p>
+</blockquote>
+<pre><code class="highlight bash"><span class="built_in">sudo</span> aireplay-ng --deauth 4 -a &lt;target_MAC&gt; -c &lt;client_MAC&gt; wlan0</code></pre>
+
+<p><strong>4.5. Spargerea parolei criptate</strong></p>
+<pre><code class="highlight bash"><span class="built_in">sudo</span> aircrack-ng capturefile.cap -w /usr/share/wordlist/rockyou.txt</code></pre>
+
+<br>
+<br>
+
+<p style="text-align:center">
+  <b>NEXT</b>: <a href="/CTFs/ixodron/ctf/" target="_blank">CTF</a>
+</p>
 
 <hr>
 <hr>
@@ -385,22 +496,22 @@ rustscan -a <span class="variable">$IP</span> --<span class="built_in">ulimit</s
 
     <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/Pentesting/" rel="tag"><i class="fa fa-tag"></i> Pentesting</a>
-              <a href="/tags/Linux/" rel="tag"><i class="fa fa-tag"></i> Linux</a>
-              <a href="/tags/Reconnaissance/" rel="tag"><i class="fa fa-tag"></i> Reconnaissance</a>
+              <a href="/tags/CTFs/" rel="tag"><i class="fa fa-tag"></i> CTFs</a>
+              <a href="/tags/ixodron-2024/" rel="tag"><i class="fa fa-tag"></i> ixodron 2024</a>
+              <a href="/tags/Demo/" rel="tag"><i class="fa fa-tag"></i> Demo</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/Pentesting/Linux/1/" rel="prev" title="1. Preparation - Linux">
-                  <i class="fa fa-angle-left"></i> 1. Preparation - Linux
+                <a href="/CTFs/ixodron-tmp/ctf/" rel="prev" title="ixodron 2024 - CTF">
+                  <i class="fa fa-angle-left"></i> ixodron 2024 - CTF
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/Pentesting/Linux/3/" rel="next" title="3. Enumeration - Linux">
-                  3. Enumeration - Linux <i class="fa fa-angle-right"></i>
+                <a href="/CTFs/ixodron-tmp/Demo/1/" rel="next" title="ixodron 2024 - Demo 1">
+                  ixodron 2024 - Demo 1 <i class="fa fa-angle-right"></i>
                 </a>
             </div>
           </div>
@@ -473,7 +584,7 @@ rustscan -a <span class="variable">$IP</span> --<span class="built_in">ulimit</s
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js" integrity="sha256-yvJQOINiH9fWemHn0vCA5lsHWJaHs6/ZmO+1Ft04SvM=" crossorigin="anonymous"></script>
-  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":false,"delay":true,"timeout":3000,"priority":true,"url":"https://chronossec.site/Pentesting/Linux/2/"}</script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":false,"delay":true,"timeout":3000,"priority":true,"url":"https://chronossec.site/CTFs/ixodron-tmp/Demo/2/"}</script>
   <script src="/js/third-party/quicklink.js"></script>
 
 </body>
