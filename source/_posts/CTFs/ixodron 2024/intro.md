@@ -221,11 +221,11 @@ Marin Radu operează în domeniul securității cibernetice, participând la com
 
 <br>
 
-**Certificates**
+**Certificări:**
 - <a href="https://www.comptia.org/certifications/security" target="_blank">**`CompTIA - Security+`**</a>
 - <a href="https://security.ine.com/certifications/ejpt-certification/" target="_blank">**`eJPT - eLearnSecurity Junior Penetratino Tester`**</a>
 - <a href="https://certifications.tcm-sec.com/pnpt/" target="_blank">**`PNPT - Practical Network Penetration Tester`**</a>
-- <a href="https://certifications.tcm-sec.com/pnpt/" target="_blank">**`OSCP - Offensive Security Certified Professional`**</a>
+- <a href="https://www.offsec.com/courses/pen-200/" target="_blank">**`OSCP - Offensive Security Certified Professional`**</a>
 
 <br>
 <br>
