@@ -214,9 +214,18 @@ Marin Radu operează în domeniul securității cibernetice, participând la com
 **Resurse de învățare:**
 - <a href="https://play.picoctf.org/practice" target="_blank">**`PicoCTF`**</a>
 - <a href="https://tryhackme.com/hacktivities?tab=search" target="_blank">**`TryHackMe`**</a>
+- <a href="https://hackthebox.com/" target="_blank">**`HackTheBox`**</a>
 - <a href="https://247ctf.com/dashboard" target="_blank">**`247CTF`**</a>
 - <a href="https://ctflearn.com/challenge/1/browse" target="_blank">**`CTFLearn`**</a>
-- <a href="https://chronos-security.notion.site/Learning-resources-652c504eb73b46daa5fa5a79be840624?pvs=4" target="_blank">**`Chronos Secrurity`**</a>
+- <a href="https://chronos-security.notion.site/Learning-resources-652c504eb73b46daa5fa5a79be840624?pvs=4" target="_blank">**`Chronos Secrurity - Learning resources`**</a>
+
+<br>
+
+**Certificates**
+- <a href="https://www.comptia.org/certifications/security" target="_blank">**`CompTIA - Security+`**</a>
+- <a href="https://security.ine.com/certifications/ejpt-certification/" target="_blank">**`eJPT - eLearnSecurity Junior Penetratino Tester`**</a>
+- <a href="https://certifications.tcm-sec.com/pnpt/" target="_blank">**`PNPT - Practical Network Penetration Tester`**</a>
+- <a href="https://certifications.tcm-sec.com/pnpt/" target="_blank">**`OSCP - Offensive Security Certified Professional`**</a>
 
 <br>
 <br>
