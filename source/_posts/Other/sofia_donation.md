@@ -82,10 +82,9 @@ RO32BREL0005514471700100
 
 ### Donate Online
 
-For quick and secure donations, please use the following link:  
-<div style="position: relative; width: 400px; height: 500px; overflow: hidden;">
-  <iframe style="position: absolute; top:0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%;" src="https://4fund.com/3pszwt/widget/23" frameborder="0" scrolling="no"></iframe>
-</div>
+For quick and secure donations, please use the following link:
+
+<div style="position: relative; width: 400px; height: 500px; overflow: hidden;"><iframe style="position: absolute; top:0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%;" src="https://4fund.com/ro/3pszwt/widget/23" frameborder="0" scrolling="no"></iframe></div>
 
 ---
 
