@@ -1,5 +1,6 @@
 ---
-title: Donate to support Sofia
+title: "Donate to support Sofia"
+date: 2024-01-28 10:00:00
 categories:
   - Other
 tags:
@@ -9,29 +10,11 @@ toc: true
 ---
 
 ---
+
 > Help Sofia pay her scoliosis surgery!
 
 ---
-<!-- more -->
 
-<br>
-
-
-
----
-title: Donate to support Sofia
-categories:
-  - Other
-tags:
-  - Other
-  - Donation
-toc: true
----
-
----
-> Help Sofia 
-
----
 <!-- more -->
 
 <br>
