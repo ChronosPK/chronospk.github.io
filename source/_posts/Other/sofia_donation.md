@@ -95,15 +95,15 @@ Here are some images to provide a clearer understanding of Sofia's condition and
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
   <div style="flex: 1; min-width: 250px; max-width: 300px; height: 300px; overflow: hidden;">
-    <img src="/uploads/donation/sofia - profile.jpg" alt="Sofia smiling" style="width: 100%; object-fit: cover; border-radius: 5px;"/>
+    <img src="/uploads/donation/sofia-profile.jpg" alt="Sofia smiling" style="width: 100%; object-fit: cover; border-radius: 5px;"/>
     <p style="text-align: center; font-size: 0.9rem; color: #555;">Sofia</p>
   </div>
   <div style="flex: 1; min-width: 250px; max-width: 300px; height: 300px; overflow: hidden;">
-    <img src="/uploads/donation/sofia - radiography.png" alt="X-ray of Sofia's spine" style="width: 100%; object-fit: cover; border-radius: 5px;"/>
+    <img src="/uploads/donation/sofia-radiography.png" alt="X-ray of Sofia's spine" style="width: 100%; object-fit: cover; border-radius: 5px;"/>
     <p style="text-align: center; font-size: 0.9rem; color: #555;">X-ray showing scoliosis</p>
   </div>
   <div style="flex: 1; min-width: 250px; max-width: 300px; height: 300px; overflow: hidden;">
-    <img src="/uploads/donation/sofia - consultation.png" alt="Medical records for Sofia" style="width: 100%; object-fit: cover; border-radius: 5px;"/>
+    <img src="/uploads/donation/sofia-consultation.png" alt="Medical records for Sofia" style="width: 100%; object-fit: cover; border-radius: 5px;"/>
     <p style="text-align: center; font-size: 0.9rem; color: #555;">Medical record</p>
   </div>
 </div>
